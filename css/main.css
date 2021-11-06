@@ -1,0 +1,22 @@
+.h1{
+	color: red;
+}
+.p{
+	margin: 16px 0px 100px 0px;
+	border: 2px;
+	background: blue;
+	width: 200px;
+}
+.h2{
+	background: green;
+}
+.h22{
+	background: green;
+	padding: 30px;
+}
+li {
+	border: solid black;
+}
+.p2{
+	margin: 16px 100px;
+}
