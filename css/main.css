@@ -29,26 +29,25 @@ background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 1
 background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
 background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
-padding: 54px 0px 93px 0px;
+padding-top: 54px;
+padding-bottom: 93px;
 color: #fff;
 }
 
 .h1 {
 	padding-top: 150px;
 	width: 550px;
+	font-size: 37px;
 }
 
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 span {
 	font-size: 59px;
-}
-
-.offer {
-	margin-right: 41px;
 }
 
 .intro {
@@ -162,9 +161,10 @@ section {
 footer {
 	background: #164D7A;
 	text-align: center;
+	padding-top: 57px;
+	padding-bottom: 57px;
 }
 
 .and {
-	padding: 57px 0 57px 0;
 	margin: 0;
 }
