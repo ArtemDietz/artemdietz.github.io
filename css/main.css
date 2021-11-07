@@ -1,0 +1,170 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,189,254,1);
+background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding: 54px 0px 93px 0px;
+color: #fff;
+}
+
+.h1 {
+	padding-top: 150px;
+	width: 550px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+span {
+	font-size: 59px;
+}
+
+.offer {
+	margin-right: 41px;
+}
+
+.intro {
+	padding-bottom: 15px;
+}
+
+.btn {
+	background: #FFD429;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #000;
+	display: block;
+	width: 250px;
+	padding: 17px 28px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 900;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: orange;
+}
+
+.learn {
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+.prems {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.prem {
+	justify-content: space-between;
+	width: 300px;
+	height: 180px;
+	padding-top: 85px;
+}
+
+.prem:hover {
+	border: 0.5px solid #164D7A;
+	box-shadow: 1px 3px #000;
+	transition: all 0.2s !important;
+}
+
+.prem-titel {
+	font-size: 19px;
+	justify-content: safe center;
+	display: flex;
+}
+
+.prem-text {
+	font-size: 15px;
+	justify-content: right;
+	display: flex;
+	text-align: center;
+}
+
+.prem1 {
+	background: url('../img/icons1.png') no-repeat center top;
+}
+.prem2 {
+	background: url('../img/icons2.png') no-repeat center top;
+}
+.prem3 {
+	background: url('../img/icons3.png') no-repeat center top;
+}
+
+.form {
+	background-color: #ECF3F8;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 50px 0 100px 0;
+}
+
+.f {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 50px;
+}
+
+.input {
+	width: 340px;
+	height: 50px;
+	margin: 0 0 15px 0;
+	border-color: #BBB;
+	border-radius: 5px;
+	padding-left: 20px;
+	outline: 0;
+	cursor: pointer;
+}
+
+.input:hover {
+	border: 0.5px solid #164D7A;
+	font-size: 17px;
+	box-shadow: 1px 3px #000;
+	transition: all 0.1s !important;
+}
+section {
+	text-align: center;
+}
+
+.go {
+	width: 340px;
+}
+
+footer {
+	background: #164D7A;
+	text-align: center;
+}
+
+.and {
+	padding: 57px 0 57px 0;
+	margin: 0;
+}
